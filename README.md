@@ -6,3 +6,6 @@ this is a simple readme file
 
 In Masrter branch
 In new_branch
+
+
+This is going to cause a conflict
