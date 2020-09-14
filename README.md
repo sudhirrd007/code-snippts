@@ -13,3 +13,6 @@ I hope there is not much of the problem
 
 Wow
 stashing
+
+Updates in stage
+More update in working directory
