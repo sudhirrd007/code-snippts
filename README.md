@@ -18,6 +18,3 @@ Updates in stage
 More update in working directory
 
 I am on GitHub Desktop application
-
-
-I changed things from GitHub to check on desktop application
