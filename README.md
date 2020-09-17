@@ -16,3 +16,5 @@ stashing
 
 Updates in stage
 More update in working directory
+
+I am on GitHub Desktop application
