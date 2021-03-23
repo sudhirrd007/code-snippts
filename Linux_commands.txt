@@ -1,14 +1,14 @@
---- anaconda
-anaconda-navigator ---------------------------------------------- (open anaconda GUI)
+# anaconda
+anaconda-navigator ----- (open anaconda GUI)
 
 
---- Linux
-sudo -i --------------------------------------------------------- (Enter into admin mode)
-sudo lsof -i -P -n | grep LISTEN -------------------------------- (list all ports)
-sudo ss --kill state listening src :8888 ------------------------ (close given port)
+# Linux
+sudo -i -------------------------------------- (Enter into admin mode)
+sudo lsof -i -P -n | grep LISTEN ------------- (list all ports)
+sudo ss --kill state listening src :8888 ----- (close given port)
 
   
---- jupyterlab ---------------------------------------------------------------
+# jupyterlab
 jupyter labextension list   						#> (list all jupyterlab extensions)
 jupyter lab build   							#> (build jupyter lab)(do after every extension insertion or deletion)
 pip install --upgrade jupyterlab   					#> (upgrade jupyter lab)
