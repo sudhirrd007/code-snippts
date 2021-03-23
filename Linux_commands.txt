@@ -1,11 +1,11 @@
---- anaconda -----------------------------------------------------------------
-anaconda-navigator   						#> (open anaconda GUI)
+--- anaconda
+anaconda-navigator ---------------------------------------------- (open anaconda GUI)
 
 
---- Linux --------------------------------------------------------------------
-sudo -i   							#> (Enter into admin mode)
-sudo lsof -i -P -n | grep LISTEN   				#> (list all ports)
-sudo ss --kill state listening src :8888   			#> (close given port)
+--- Linux
+sudo -i --------------------------------------------------------- (Enter into admin mode)
+sudo lsof -i -P -n | grep LISTEN -------------------------------- (list all ports)
+sudo ss --kill state listening src :8888 ------------------------ (close given port)
 
   
 --- jupyterlab ---------------------------------------------------------------
