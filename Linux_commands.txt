@@ -1,0 +1,34 @@
+--- anaconda -----------------------------------------------------------------
+anaconda-navigator   #> (open anaconda GUI)
+
+
+--- Linux --------------------------------------------------------------------
+sudo -i   --> (Enter into admin mode)
+sudo lsof -i -P -n | grep LISTEN   #> (list all ports)
+sudo ss --kill state listening src :8888   #> (close given port)
+
+  
+--- jupyterlab ---------------------------------------------------------------
+jupyter labextension list   #> (list all jupyterlab extensions)
+jupyter lab build   #> (build jupyter lab)(do after every extension insertion or deletion)
+pip install --upgrade jupyterlab   #> (upgrade jupyter lab)
+jupyter labextension uninstall <@jupyter-widgets/jupyterlab-manager>   #> (remove extension)
+jupyter server extension enable --py jupyterlab_git   #> (enable extension)
+pip install --upgrade jupyterlab-git   #> (upgrade extension)
+
+
+--- pip ----------------------------------------------------------------------
+sudo apt remove <pkg>   #> (remove package)
+pip install --upgrade <pkg>   #> (upgrade package)
+
+
+--- snap ---------------------------------------------------------------------
+sudo snap remove <pkg>   #> (remove package)
+
+
+--- Pendrive -----------------------------------------------------------------
+* steps   #> (format pendrive using NTFS mode)
+	1) sudo umount /dev/sdb1
+	2) sudo mkfs.ntfs /dev/sdb1
+
+
