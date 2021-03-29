@@ -1,7 +1,5 @@
 # Code Snippets
 
 | Syntax      | Description | edeedefe | efehkbef |
-| ----------- | ----------- | ededed | edewdeded | 
-| Longest Substring Without Repeating Characters      | Python Java       | list , array | 1. Check every possible substring O(n^2)
-2. Remember the character index and current check pos, if character index >= current pos, then there is duplicate |
-| Paragraph   | Text        | edee | eldmedeldmedldmedlemde |
+| ----------- | ----------- | --- | --- | 
+| Longest Substring Without Repeating Characters      | [Python](https://github.com/qiyuangong/leetcode/blob/master/python/001_Two_Sum.py) [Java](https://github.com/qiyuangong/leetcode/blob/master/java/001_Two_Sum.java) | cjrnvr | jefnef
