@@ -5,7 +5,7 @@ anaconda-navigator ----- (open anaconda GUI)
 # Linux
 sudo -i -------------------------------------- (Enter into admin mode)
 sudo lsof -i -P -n | grep LISTEN ------------- (list all ports)
-sudo ss --kill state listening src :8888 ----- (close given port)
+sudo ss --kill state listening src :8888 ----- [closeport] (close given port)
 
   
 # jupyterlab
@@ -26,9 +26,16 @@ pip install --upgrade <pkg> ----- (upgrade package)
 sudo snap remove <pkg> ----- (remove package)
 
 
+# bluetooth
+1) sudo rmmod btusb
+   sudo modprobe btusb
+
+
 # Pendrive
 * steps ----------------------------- (format pendrive using NTFS mode)
 	1) sudo umount /dev/sdb1
 	2) sudo mkfs.ntfs /dev/sdb1
+
+
 
 
