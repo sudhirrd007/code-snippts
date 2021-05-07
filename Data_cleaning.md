@@ -11,7 +11,3 @@ inliers = df_[df_ == 1]
 oulliers = df_[df_ == -1]
 ```
 
-
-```python
-
-```
